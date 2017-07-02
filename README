@@ -1,0 +1,17 @@
+This is a tftp server
+Submitted 4/21/2017.
+
+/**********************************How to Run**********************************/
+make -f Makefile
+./tftpServer [port]
+
+
+on different terminal:
+./tftp [ip=localhost OR 127.0.0.1] [port]
+get filename
+OR
+put filename //this doesn't work with concurrency
+/******************************************************************************/
+
+To Do:(7/2/2017)
+1-fix put
